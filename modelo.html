@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de imc</h1>
+    </header>
+    <div id="cont">
+        <section>
+            <div>
+                Altura:
+                <div id="dalt"><input type="number" name="alt" id="txta"></div>
+                Peso:
+                <div id="dpeso"><input type="number" name="peso" id="txtp"></div>
+
+                <div id="dcal"><input type="button" value="Calcular" onclick="imc()" id="cal"></div>
+            </div>
+            <div id="res">
+                Resultado:
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy;BrunoPiovan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
